@@ -15,7 +15,6 @@ public class Empresa {
         c.setCargo1(in.nextInt());
         System.out.println("insira o terceiro cargo");
         c.setCargo1(in.nextInt());
-        
         System.out.println("\nInforme os dados do funcionario");
         System.out.println("\ninsira o cargo, de acordo com os cargos criados");
         c.setNumcargo(in.nextInt());          
