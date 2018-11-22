@@ -9,9 +9,6 @@ public class Funcionario {
     Cargo Cargo;
     double sln;
     int value;
-    public double getSln() {
-        return sln;
-    }
 
    public void setSln (double valht, double qhtb) {
         this.sln = valht*qhtb;
