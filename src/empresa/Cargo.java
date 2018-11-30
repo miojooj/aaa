@@ -1,6 +1,4 @@
-
 package empresa;
-
 
 public class Cargo {
     int cargo1;
@@ -49,9 +47,5 @@ public class Cargo {
 
     public void setCargo3(int cargo3) {
         this.cargo3 = cargo3;
-    }
-  
-   
-    
-    
+    }  
 }
