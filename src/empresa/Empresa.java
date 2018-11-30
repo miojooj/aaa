@@ -1,11 +1,9 @@
 package empresa;
 
-import java.util.Scanner;
 
 public class Empresa {
 
     public static void main(String[] args) {
-    Scanner in = new Scanner (System.in);
     Cargo c = new Cargo ();
     Funcionario f = new Funcionario();
         c.setCargo1(1);
@@ -14,7 +12,7 @@ public class Empresa {
         f.setQhtb(150);
         f.setSexo("f");
         f.setSln(c.getValht(), f.getQhtb());
-        f.setSf(f.sln,f.value);
-        System.out.println("salario final do funcionario " + f.getSf());
+        f.setSf(f.sln, f.getSexo());
+        System.out.println("salario final do funcionario " + f.getSf() + " Para o sexo " + f.sexo);
     }
 }
